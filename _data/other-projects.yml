@@ -1,0 +1,67 @@
+- name: Image-net
+  url: https://github.com/Abezzam10/Image_router
+  code: https://github.com/Abezzam10/Image_router
+  description: This is a website that I built which runs a Convolutional Neural Network to classify images. The website runs on Python using Flask for the front-end and runs the neural network with Tensorflow and Keras in the backend. By creating this project, I really enjoyed having to learn and integrate machine learning in a website.
+  used:
+    - thing: Python
+    - thing: Flask
+    - thing: TensorFlow
+    - thing: Keras
+    - thing: HTML5
+    - thing: CSS3
+
+- name: Local Life Platform
+  url: https://github.com/Rosovski/SSW-695
+  code: https://github.com/Rosovski/SSW-695
+  description: This is a cool e-commerce site that my friends and I built as a software project for a course. The website we built aims to provide a service to business owners as well as customers to have an online patform for trade. The website is built purely on Django with Python and deployed on AWS.
+  used:
+    - thing: Python
+    - thing: Django
+    - thing: HTML5
+    - thing: CSS3
+    - thing: Sass
+    - thing: JavaScript
+
+- name: BSKIT -- Virtual-machine
+  url: https://github.com/Abezzam10/Virtual-machine
+  code: https://github.com/Abezzam10/Virtual-machine
+  description: Bskit is a really simple virtual machine. It is written in C and is composed of a registry and an instruction set to take in files and execute actions on them. To gain a deeper understanding of how computers work at a low level I built out a simple implementation of a virtual machine written in C.
+  used:
+    - thing: C
+    - thing: Emacs
+    - thing: GCC
+    - thing: Clang
+    - thing: Makefile
+
+- name: Geder
+  url: https://github.com/Kybeth/SSW555-GEDCOM-Develop-Team02
+  code: https://github.com/Kybeth/SSW555-GEDCOM-Develop-Team02
+  description:
+    Geder is an application is a command line program in Python which parses and analyzes several GEDCOM files, reports and stores its findings to perform detailed analysis of geneology links. This was developed, follwowing best agile practice methods as a project for course CS-555 (Agile Methods for Software Development)
+  used:
+    - thing: Python
+    - thing: Linux
+    - thing: Gedcom Files
+    - thing: Obeject oriented porgramming
+
+- name: Portfolio v1
+  url: https://abcdxyz.netlify.app/
+  code: https://abcdxyz.netlify.app/
+  description: Responsive personal website I built before this with ReactJS. The site content is passed in as JSON data, auto-generating components for easy maintenance.
+  # img: weather
+  used:
+    - thing: JavaScript
+    - thing: CSS
+    - thing: Node.js
+    - thing: Express
+    - thing: Netlify
+
+- name: Lane finder
+  url: https://github.com/Abezzam10/Lane_finder
+  code: https://github.com/Abezzam10/Lane_finder
+  description: This project is based off the concept of computer vision on a real time basis. This is a cool project I had worked on to detect road signs and street lanes in a moving vehicle. The primary intuition was to highlight lanes so that the vehicle could allign its position according to the width of the road.I enjoyed building out the lane detection pattern and trained the model rigorously to identify key elements that could boost the experience of autonomous vehicles.
+  used:
+    - thing: Python
+    - thing: TensorFlow
+    - thing: Keras
+    - thing: OpenCV

@@ -1,0 +1,30 @@
+---
+layout: default
+---
+<script>
+  (function(d, w, c) {
+      w.ChatraID = 'gHubtWQbpaCK6SQzy';
+      var s = d.createElement('script');
+      w[c] = w[c] || function() {
+          (w[c].q = w[c].q || []).push(arguments);
+      };
+      s.async = true;
+      s.src =
+      (d.location.protocol === 'https:' ? 'https:' : 'http:') +
+      '//call.chatra.io/chatra.js';
+      if (d.head) d.head.appendChild(s);
+  })(document, window, 'Chatra');
+</script>
+
+<div id="site">
+  {% include switch.html %}
+  {% include intro.html %}
+  {% include background.html %}
+  {% include skills.html %}
+  {% include experience.html %}
+  {% include other-projects.html %}
+  {% include featured-projects.html %}
+  {% include footer.html %}
+  {% include top-button.html %}
+</div>
+

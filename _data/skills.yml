@@ -1,0 +1,32 @@
+languages:
+  - item: Python (2.+, 3.+)
+  - item: JavaScript (ES6)
+  - item: C++
+  - item: HTML
+  - item: CSS/Sass
+  - item: SQL
+
+frameworks:
+  - item: React
+  - item: Django
+  - item: Flask
+  - item: Jekyll
+  - item: Node
+  - item: D3
+  - item: Wordpress
+
+
+database:
+  - item: MongoDB
+  - item: MySQL
+  - item: Bash
+  - item: Git & Github
+  - item: Chrome DevTools
+  - item: Postman
+  - item: AWS
+
+
+design:
+  - item: Linux
+  - item: Mac
+  - item: Windows

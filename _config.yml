@@ -1,0 +1,43 @@
+# Site settings
+name: Anirudh Das Bezzam
+title: Anirudh Das Bezzam | Software Engineer
+description: Design-minded front-end software engineer focused on building beautiful interfaces and experiences
+url: https://bchiang7.github.io/
+baseurl: ''
+email: [removed old email]
+cover: ../img/emojis/richter.png
+logo: ../img/emojis/richter.png
+resume: ../Anirudh_Das_resume.pdf
+social:
+  - title: email
+    url: mailto:[removed old email]
+  - title: twitter
+    url: https://twitter.com/
+  - title: instagram
+    url: https://instagram.com/
+  - title: github
+    url: https://github.com/
+  - title: linkedin
+    url: https://www.linkedin.com/
+
+# Build settings
+markdown: kramdown
+
+exclude:
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - '*.gemspec'
+  - 'README.md'
+  - 'node_modules'
+  - 'build'
+  - 'gulpfile.js'
+  - 'package.json'
+
+keep_files:
+  - 'CNAME'
+  - '.git'
+  - '.gitignore'
+
+plugins_dir:
+  - jekyll-minifier
+  - jekyll-sitemap

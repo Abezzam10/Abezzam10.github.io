@@ -1,11 +1,17 @@
+- company: Microsoft
+  url: https://www.microsoft.com/
+  time: Nov 2024 - Present
+  position: Senior Software Engineer
+  summary: "ML and AI research infrastructure for MAI: GitHub compute, storage, and networking."
+
 - company: Intel
   url: https://www.intel.com/content/www/us/en/homepage.html
-  time: Feb 2021 - Present
-  position: Software Engineer
+  time: Mar 2021 - Oct 2024
+  position: Software Engineer / Software Engineer II
 
 - company: Meltek
   url: https://meltek.io/
-  time: Jun 2020 - Feb 2021
+  time: Jul 2020 - Feb 2021
   position: Software Development Engineer
 
 - company: Equinox

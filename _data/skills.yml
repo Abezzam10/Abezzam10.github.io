@@ -2,28 +2,39 @@ languages:
   - item: Python (2.+, 3.+)
   - item: JavaScript (ES6)
   - item: C++
+  - item: C#
+  - item: TypeScript
+  - item: YAML
   - item: HTML
   - item: CSS/Sass
   - item: SQL
 
 frameworks:
-  - item: React
+  - item: React.js
+  - item: Next.js
+  - item: Airflow
   - item: Django
   - item: Flask
   - item: Jekyll
-  - item: Node
+  - item: Node.js
   - item: D3
-  - item: Wordpress
+  - item: WordPress
 
+  - item: Local AI models
 
 database:
   - item: MongoDB
   - item: MySQL
   - item: Bash
-  - item: Git & Github
+  - item: Git & GitHub
   - item: Chrome DevTools
   - item: Postman
   - item: AWS
+  - item: Terraform
+  - item: Apache Spark
+  - item: Azure
+  - item: Docker
+  - item: Kubernetes
 
 
 design:

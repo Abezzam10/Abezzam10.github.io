@@ -1,0 +1,48 @@
+/* Responsive portfolio layout. */
+html { scroll-behavior: smooth; }
+body { overflow-wrap: break-word; }
+.intro { height: auto; min-height: 720px; display: grid; grid-template-columns: minmax(0, 1fr) 300px; align-items: center; gap: 64px; padding: 130px 100px 100px; }
+.intro__eyebrow { font-size: .88rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: #007bff; margin: 0 0 24px; }
+.intro__hello { font-size: clamp(2rem,3.5vw,3rem); line-height: 1.2; margin: 0 0 24px; }
+.intro__hello .name { font-weight: 700; }
+.intro__tagline { font-size: clamp(1.45rem,2.3vw,2rem); line-height: 1.4; margin: 0 0 24px; }
+.intro__summary { font-size: 1.08rem; line-height: 1.7; max-width: 620px; margin-bottom: 26px; }
+.intro__contact { font-size: 1rem; line-height: 1.8; margin: 0; }
+.intro__contact a { overflow-wrap: anywhere; }
+.intro__portrait { margin: 0; width: 100%; }
+.intro__portrait img { display: block; width: 100%; height: auto; aspect-ratio: 3 / 4; object-fit: cover; object-position: center; border-radius: 12px; }
+.review-only { color: #72727b; font-size: .75rem; line-height: 1.5; margin-top: 12px; }
+.background .section__content p { white-space: normal; overflow: visible; text-overflow: clip; height: auto; max-height: none; display: block; -webkit-line-clamp: unset; }
+.skills .skillz { display:grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 28px 32px; }
+.skills .skillz__category { width: auto; margin: 0; }
+.skills .skillz__category__item { line-height: 1.6; }
+.job__summary { font-size: .98rem; line-height: 1.6; margin-top: 10px !important; max-width: 560px; }
+.gallery__title { font-size: 1.35rem; margin:0 0 16px; font-weight: 600; }
+.travel-gallery { display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;align-items:start; }
+.travel-gallery figure { margin:0;min-width:0; }
+.travel-gallery img { display:block;width:100%;height:auto;border-radius:8px; }
+@media(max-width:1000px) { .intro { padding:110px 50px 70px;grid-template-columns:minmax(0,1fr) 240px;gap:36px;min-height:650px; } }
+@media(max-width:700px) { .intro { padding:100px 30px 60px;display:flex;flex-direction:column;align-items:flex-start;gap:32px;min-height:0; } .intro__portrait { width:200px;order:-1; } .intro__hello { font-size:2.15rem; } .intro__tagline { font-size:1.6rem; } .intro__eyebrow { font-size:.75rem; } .section { padding:40px 30px; } .section__content { padding-left:0; } .section__title { text-align:left; } .experience .time-place { flex-wrap:wrap;gap:4px 12px; } .travel-gallery { gap:14px; } }
+@media(max-width:380px) { .intro { padding-left:24px;padding-right:24px; } .intro__hello { font-size:1.9rem; } .section { padding-left:24px;padding-right:24px; } .skills .skillz { column-gap:20px; } .travel-gallery { grid-template-columns:1fr; } }
+
+
+
+.email-text { overflow-wrap:anywhere; } .footer__links .email-text { font-size:.9rem; }
+
+
+.intro__hello .emoji { width:32px; height:32px; margin-left:10px; }
+.footer__links { flex-wrap:wrap; align-items:center; gap:16px; }
+
+/* Keyboard focus, touch targets and motion preferences. */
+a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid #007bff; outline-offset: 5px; }
+@media (pointer:coarse) { #toggle { min-width:44px; min-height:28px; } #top-button { min-width:44px; min-height:44px; } .footer__links a { min-height:44px; display:inline-flex; align-items:center; } }
+@media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } *, *::before, *::after { animation-duration:.01ms!important; transition-duration:.01ms!important; } }
+@media (max-height:500px) and (min-width:701px) { .intro { padding-top:76px; padding-bottom:40px; min-height:0; } .intro__portrait { width:180px; justify-self:end; } }
+
+/* Medium photo tiles keep every image intact rather than cropping it. */
+.travel-gallery { display:grid; grid-template-columns:repeat(2,minmax(0,250px)); gap:24px; align-items:start; }
+.travel-gallery figure { display:flex;flex-direction:column;align-items:flex-start; }
+.travel-gallery img { width:auto;max-width:100%;height:auto;max-height:320px;object-fit:contain; }
+.travel-gallery figcaption { font-size:.9rem;margin-top:10px; }
+.gallery__title { font-size:1.12rem;line-height:1.65;font-weight:500;max-width:560px;margin-bottom:28px; }
+@media(max-width:700px) { .travel-gallery { grid-template-columns:minmax(0,280px);gap:24px; } .travel-gallery img { max-height:320px; } }

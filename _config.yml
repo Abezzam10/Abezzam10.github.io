@@ -1,16 +1,14 @@
 # Site settings
 name: Anirudh Das Bezzam
-title: Anirudh Das Bezzam | Software Engineer
-description: Design-minded front-end software engineer focused on building beautiful interfaces and experiences
-url: https://bchiang7.github.io/
+title: Anirudh Das Bezzam | Senior Software Engineer
+description: Senior Software Engineer at Microsoft building ML and AI research infrastructure across compute, storage, and networking.
+url: https://abezzam10.github.io/
 baseurl: ''
-email: [removed old email]
+email: anirudhdasbezzam[at]gmail[dot]com
 cover: ../img/emojis/richter.png
 logo: ../img/emojis/richter.png
 resume: ../Anirudh_Das_resume.pdf
 social:
-  - title: email
-    url: mailto:[removed old email]
   - title: twitter
     url: https://twitter.com/anirudhdas97
   - title: instagram

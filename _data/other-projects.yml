@@ -1,3 +1,17 @@
+- name: WARN Dashboard
+  url: https://abezzam10.github.io/warn-dashboard/
+  code: https://github.com/Abezzam10/warn-dashboard
+  description: An open-source dashboard I built as a local prototyping tool to explore the economic shift behind industry layoffs. I built it to understand the change the AI boom is bringing - not only in tech, but how it affects us as a society and the future of jobs. It turns 61,000+ U.S. WARN layoff notices into an explorable interface with filters, monthly trends, preset analyses, and saved views you can tailor to your niche. I'm also experimenting with an on-device language model (SmolLM2 via Transformers.js, from Hugging Face) so users can ask questions in plain words; it isn't enabled in the live version yet. Forecasting and fine-tuning the analysis to each user's niche are what I'm building toward next.
+  used:
+    - thing: Python
+    - thing: JavaScript
+    - thing: HTML5
+    - thing: CSS3
+    - thing: GitHub Actions
+    - thing: Hugging Face
+    - thing: Transformers.js
+    - thing: SmolLM2
+
 - name: Image-net
   url: https://github.com/Abezzam10/Image_router
   code: https://github.com/Abezzam10/Image_router
